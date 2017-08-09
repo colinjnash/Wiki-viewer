@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Wikipedia Viewer
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="wikistyle.css">
+    <script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="wikipedia-viewer-codepen.js"></script>
+
+</head>
+
+<body>
+    <h1>Wikipedia Viewer</h1>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchText" placeholder="Search here">
+                <span class="input-group-btn">
+        <button class="btn btn-default" id="submit" type="Submit"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </span>
+                <span class="input-group-btn">
+      <form action="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+        <button id="random" class= "btn btn-default">?</button>
+        </form>
+      </span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="results">
+    </div>
+  </div>
+</body>
+
+</html>

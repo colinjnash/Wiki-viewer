@@ -1,0 +1,58 @@
+body {
+
+ font-family: 'Inknut Antiqua', serif;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Wikipedia_Globe_translucent_3D_printed_black_background.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+  background-color: black;
+;
+
+
+}
+
+
+
+h1 {
+  text-align: center;
+  color: white !important;
+  font-family: 'Inknut Antiqua', serif;
+margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+#results {
+  
+  margin-top: 200px;
+}
+
+
+.pages {
+
+	background-color: white;
+	opacity: 0.9;
+	margin: 20px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+
+.btn {
+  
+  min-height: 35px;
+  min-width:  35px;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+#random {
+  
+  font-weight: 800;
+  
+}
+
+#searchText {
+
+  min-height: 35px;
+}
